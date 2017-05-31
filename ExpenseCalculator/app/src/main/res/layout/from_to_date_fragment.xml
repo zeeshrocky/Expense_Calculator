@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from_date"/>
+    <TextView
+        android:id="@+id/from_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_sample"
+        android:gravity="center"
+        android:drawableRight="@android:drawable/ic_menu_my_calendar"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:drawablePadding="@dimen/_8sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_date"/>
+    <TextView
+        android:id="@+id/to_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_sample"
+        android:gravity="center"
+        android:drawableRight="@android:drawable/ic_menu_my_calendar"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:drawablePadding="@dimen/_8sdp"/>
+
+</LinearLayout>
